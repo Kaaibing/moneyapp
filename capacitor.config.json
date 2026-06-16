@@ -1,0 +1,8 @@
+{
+  "appId": "com.money.app",
+  "appName": "Money",
+  "webDir": "www",
+  "android": {
+    "backgroundColor": "#F5F6F8"
+  }
+}

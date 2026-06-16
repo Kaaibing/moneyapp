@@ -1,0 +1,24 @@
+{
+  "name": "money-native",
+  "version": "1.0.0",
+  "description": "Money — native Android wrapper (Capacitor) for the Money expense tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sync": "cap sync",
+    "copy": "cap copy",
+    "open:android": "cap open android",
+    "assets": "capacitor-assets generate --android"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/android": "^8.4.0",
+    "@capacitor/cli": "^8.4.0",
+    "@capacitor/core": "^8.4.0",
+    "@capacitor/filesystem": "^8.1.2",
+    "@capacitor/preferences": "^8.0.1",
+    "@capacitor/share": "^8.0.1"
+  }
+}
